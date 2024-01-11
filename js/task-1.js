@@ -1,6 +1,7 @@
 'use strict';
 const getUserNames = (users) => users.map(user => user.name);
-console.log(getUserNames([
+console.log(
+  getUserNames([
   {
     name: "Moore Hensley",
     email: "moorehensley@indexia.com",
@@ -37,6 +38,7 @@ console.log(getUserNames([
     balance: 2764
   },
 ])
-); 
+); // ["Moore Hensley", "Sharlene Bush", "Ross Vazquez", "Elma Head", "Carey Barr", "Blackburn Dotson", "Sheree Anthony"]
+
 //  Зроблено для візуально відступу між task при перевіркі
 console.log(""); 
